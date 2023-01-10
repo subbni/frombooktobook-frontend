@@ -1,0 +1,85 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formContainer {
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.msg {
+  margin: 1rem;
+  color: rgb(91, 91, 91);
+  font-size: 0.9rem;
+}
+
+.input {
+  font-size: 0, 9rem;
+  border: none;
+  border-bottom: 1px solid rgb(65, 98, 76);
+  padding-bottom: 1rem;
+  outline: none;
+  width: 50%;
+  margin-top: 1.3rem;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 30%;
+  color: rgb(0, 0, 0);
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.152);
+  background-color: rgba(143, 143, 143, 0.052);
+}
+
+.btn:hover {
+  background-color: rgba(128, 128, 128, 0.338);
+}
+
+.codeInput {
+  font-size: 0, 9rem;
+  border: none;
+
+  outline: 1px solid rgb(200, 200, 200);
+  width: 35%;
+  height: 2rem;
+  text-align: center;
+}
+
+.codeInput:hover {
+  outline: 1px solid rgb(15, 100, 53);
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.152);
+}
+
+.codeBtn {
+  border: none;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 2rem;
+  width: 25%;
+  height: 2.2rem;
+  color: rgb(111 111 111);
+  outline: 1px solid rgb(181 181 181);
+  cursor: pointer;
+  background-color: rgba(179, 179, 179, 0.052);
+}
+
+.codeBtn:hover {
+  outline: 1px solid rgb(15, 100, 53);
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.152);
+}

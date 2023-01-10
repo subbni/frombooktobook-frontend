@@ -1,0 +1,106 @@
+.templateBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.whiteBox {
+  position: relative;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.246);
+  padding: 2rem;
+  margin: 2rem;
+  width: 60%;
+  background: white;
+  border-radius: 2px;
+}
+
+.formBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formBlock .h3 {
+  font-size: 0.9;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.025);
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.styledInput {
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(47, 79, 79, 0.456);
+  padding-bottom: 1rem;
+  outline: none;
+  width: 100%;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.styledInput:focus {
+  color: rgb(92, 104, 74);
+  border-bottom: 2px solid rgb(94, 135, 98);
+}
+
+.styledButton {
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 200;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  margin-top: 2rem;
+  width: 20%;
+  color: rgb(19, 75, 61);
+  background-color: rgba(255, 255, 255, 0.799);
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.152);
+  transition: all ease 0.3s 0s;
+}
+
+.styledButton:hover {
+  background: rgba(122, 152, 148, 0.616);
+}
+
+.bookInfo {
+  display: flex;
+  width: 100%;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.content {
+  font-size: 1rem;
+  border: 1px solid rgba(47, 79, 79, 0.507);
+  border-radius: 10px;
+  padding: 1rem;
+  outline: none;
+  resize: none;
+  width: 97%;
+  height: 10rem;
+  margin-top: 1.5rem;
+}
+
+.content:focus {
+  border: 2px solid rgb(94, 135, 98);
+}

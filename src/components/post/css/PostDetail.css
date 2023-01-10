@@ -1,0 +1,68 @@
+.detailBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 1rem;
+  color: rgb(41, 73, 56);
+}
+
+.heartButton {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+}
+
+.written {
+  font-size: 0.8rem;
+  color: rgb(56, 64, 60);
+}
+
+table {
+  table-layout: fixed;
+  width: 40%;
+  border-collapse: collapse;
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+th {
+  font-size: 1rem;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(104, 122, 110, 0.267);
+}
+
+.content {
+  padding: 3rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.styledButton {
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 200;
+  margin: 0.5rem;
+  width: 50%;
+  color: rgba(39, 69, 62, 0.652);
+  background-color: rgba(255, 255, 255, 0.799);
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.152);
+  transition: all ease 0.3s 0s;
+}
+
+.styledButton:hover {
+  background: rgba(133, 158, 154, 0.616);
+}

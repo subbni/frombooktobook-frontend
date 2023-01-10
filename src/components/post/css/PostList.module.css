@@ -1,0 +1,44 @@
+.templateBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.whiteBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.246);
+  padding: 2rem;
+  margin: 2rem;
+  width: 66%;
+  background: white;
+  border-radius: 2px;
+}
+
+.table {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.th {
+  font-size: 1rem;
+}
+
+.th,
+.td {
+  padding: 20px;
+  text-align: center;
+}
+
+.tableRow {
+  cursor: pointer;
+  transition: all ease 0.4s 0s;
+}
+
+.tableRow:hover {
+  background-color: rgba(100, 137, 108, 0.109);
+}

@@ -1,0 +1,57 @@
+.formContainer {
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.input {
+  font-size: 0, 9rem;
+  border: none;
+  border-bottom: 1px solid rgb(65, 98, 76);
+  padding-bottom: 1rem;
+  outline: none;
+  width: 50%;
+  margin-top: 1.3rem;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 30%;
+  color: rgb(0, 0, 0);
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.152);
+  background-color: rgba(143, 143, 143, 0.052);
+}
+
+.btn:hover {
+  background-color: rgba(128, 128, 128, 0.338);
+}
+
+.msg {
+  margin: 1rem;
+  color: rgb(91, 91, 91);
+  font-size: 0.9rem;
+}
+
+.alert {
+  margin: 1rem;
+  color: rgb(91, 67, 67);
+  font-size: 0.9rem;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,38 @@
+.heartBtn {
+  width: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all ease 0.2s 0s;
+}
+
+.heartBtn:hover {
+  width: 1.75rem;
+}
+
+.templateBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* .whiteBox {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.246);
+  padding: 2rem;
+  margin: 3rem;
+
+  width: 33%;
+  background: white;
+  border-radius: 2px;
+} */
+
+.whiteBox {
+  position: relative;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.246);
+  padding: 2rem;
+  margin: 2rem;
+  width: 50%;
+  background: white;
+  border-radius: 2px;
+}

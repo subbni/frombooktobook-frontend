@@ -1,0 +1,75 @@
+/* .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  padding: 0 15rem;
+  text-decoration: none;
+  background-color: white;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(240, 237, 224, 0.514);
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(62, 112, 85);
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menu li {
+  padding: 8px 12px;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(62, 112, 85);
+}
+
+.mypage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mypage a {
+  text-decoration: none;
+  color: rgb(62, 112, 85);
+}
+
+.logout {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(62, 112, 85);
+  cursor: pointer;
+  padding: 0 1rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile__img {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.profile__name {
+  padding: 12px;
+  color: rgb(50, 90, 69);
+  font-weight: 700;
+}
